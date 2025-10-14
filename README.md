@@ -32,16 +32,27 @@ It also integrates with **ERPNext** for data synchronization and uses local stor
 
 iot-project/
 │
+
 ├── main.py # Main app entry (FastAPI + sensor loop)
+
 ├── sensor/
+
 │ └── sensor_reader.py # Reads Modbus sensor data
+
 ├── storage/
+
 │ └── local_storage.py # Local data storage
+
 ├── cloud/
+
 │ └── cloud_service.py # Cloud data uploader (placeholder)
+
 ├── erpnext/
+
 │ └── erpnext_service.py # ERPNext integration logic
+
 └── ui/
+
 └── dashboard.py # Web dashboard and visualization
 
 ---
