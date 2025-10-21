@@ -1,6 +1,5 @@
 from pymodbus.client import ModbusTcpClient
 from datetime import datetime
-import inspect
 
 class SensorReader:
     def __init__(self, host="192.168.1.100", port=502, slave_id=1):
@@ -14,30 +13,17 @@ class SensorReader:
         if not self.client.connect():
             print(f"[SensorReader] ⚠️ Could not connect to {host}:{port}")
 
-        # Detect if 'unit' argument is supported (older pymodbus)
-        self.supports_unit = "unit" in inspect.signature(self.client.read_input_registers).parameters
-        print(f"[SensorReader] Using pymodbus method signature: {inspect.signature(self.client.read_input_registers)}")
-
-
     def read_data(self):
         """
         Reads the liquid level (in meters) from the Holykell UE3001 sensor via Modbus.
-        # (not) Compatible with both pymodbus 2.x and 3.x versions.
-        Updated for pymodbus 3.7+ which uses 'device_id' instead of 'unit' or 'slave'.
+        The exact register address and scaling depend on the UE3001 Modbus table.
         """
         try:
-            # rr = self.client.read_input_registers(1, 2, device_id=self.slave_id)
-            rr = self.client.read_input_registers(address=1, count=2, device_id=self.slave_id)
+            # --- This address should be adjusted based on Holykell’s register map ---
+            # Eg: Register 0x0001 holds the level measurement
+            rr = self.client.read_input_registers(self.slave_id, 1, 2)
 
-
-            #if self.supports_unit:
-                # Old pymodbus syntax
-                # rr = self.client.read_input_registers(address=1, count=2, unit=self.slave_id)
-            #else:
-                # New pymodbus syntax (3.x+)
-                # rr = self.client.read_input_registers(address=1, count=2, slave=self.slave_id)
-                # rr = self.client.read_input_registers(1, 2, device_id=self.slave_id)
-
+            # Change read_input_registers() to read_holding_registers() if needed
 
             if rr.isError():
                 return {"status": "error", "message": str(rr)}
@@ -45,15 +31,18 @@ class SensorReader:
             if not rr.registers:
                 return {"status": "error", "message": "Empty register response"}
 
+            # Example: interpret the first register as raw level (mm)
             raw_level = rr.registers[0]
-            level_m = raw_level / 1000.0  # mm → m
+            level_m = raw_level / 1000.0  # convert mm → m (adjust if different)
 
+            # You can also read additional registers for temperature, voltage, etc.
+            # For now we’ll just send level_m
             data = {
                 "device_id": self.device_id,
                 "level_m": level_m,
                 "unit": "m",
-                "battery_voltage": 12.5,   # placeholder
-                "signal_strength": 90,     # placeholder
+                "battery_voltage": 12.5,   # placeholder 
+                "signal_strength": 90,     # placeholder 
                 "timestamp": datetime.now().isoformat()
             }
 

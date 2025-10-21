@@ -1449,3 +1449,5 @@
 {"timestamp": "2025-10-09T16:33:24.037160", "data": {"temperature": 26.39, "humidity": 49.96, "pressure": 1007.32}}
 {"timestamp": "2025-10-09T16:33:28.071932", "data": {"temperature": 29.41, "humidity": 59.15, "pressure": 1001.87}}
 {"timestamp": "2025-10-09T16:33:32.123770", "data": {"temperature": 29.55, "humidity": 52.26, "pressure": 1015.4}}
+{"timestamp": "2025-10-21T12:02:53.462876", "data": {"status": "error", "message": "ModbusClientMixin.read_holding_registers() got an unexpected keyword argument 'unit'"}}
+{"timestamp": "2025-10-21T14:35:53.056581", "data": {"status": "error", "message": "ModbusClientMixin.read_input_registers() got an unexpected keyword argument 'unit'"}}
