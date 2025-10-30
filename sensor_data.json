@@ -1451,3 +1451,460 @@
 {"timestamp": "2025-10-09T16:33:32.123770", "data": {"temperature": 29.55, "humidity": 52.26, "pressure": 1015.4}}
 {"timestamp": "2025-10-21T12:02:53.462876", "data": {"status": "error", "message": "ModbusClientMixin.read_holding_registers() got an unexpected keyword argument 'unit'"}}
 {"timestamp": "2025-10-21T14:35:53.056581", "data": {"status": "error", "message": "ModbusClientMixin.read_input_registers() got an unexpected keyword argument 'unit'"}}
+{"timestamp": "2025-10-30T10:31:22.027830", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:27.040643", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:32.059494", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:37.069811", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:42.091675", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:47.107738", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:52.125811", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:31:57.148031", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:02.164421", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:07.181915", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:12.194825", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:17.211873", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:22.222959", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:27.246269", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:32.270373", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:37.292941", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:42.313231", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:47.336246", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:52.347077", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:32:57.366317", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:02.385693", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:07.408860", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:12.429220", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:17.452456", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:22.474586", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:27.486852", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:32.515837", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:37.551946", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:42.573240", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:47.589717", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:52.607863", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:33:57.625676", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:02.643526", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:07.660356", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:12.679365", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:17.691314", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:22.712470", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:27.727783", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:32.741853", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:37.756796", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:42.776254", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:47.783064", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:52.793046", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:34:57.808160", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:02.819803", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:07.841074", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:12.858549", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:17.876274", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:22.895237", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:27.916026", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:32.933253", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:37.951541", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:42.973548", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:47.992141", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:53.012018", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:35:58.024052", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:03.031061", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:08.060314", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:13.075972", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:18.093754", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:23.103322", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:28.114608", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:33.120554", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:38.135729", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:43.149944", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:48.159924", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:53.168135", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:36:58.193054", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:03.199715", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:08.207898", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:13.215920", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:18.230307", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:23.242296", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:28.264726", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:33.286419", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:38.300092", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:43.308403", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:48.323053", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:53.333509", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:37:58.348786", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:03.358927", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:08.368573", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:13.376980", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:18.386922", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:23.400399", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:28.417264", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:33.439878", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:38.451451", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:43.473422", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:48.489543", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:53.499979", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:38:58.516806", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:03.542335", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:08.557995", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:13.563063", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:18.572024", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:23.585097", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:28.598442", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:33.621828", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:38.634020", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:43.651830", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:48.673669", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:53.690475", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:39:58.705648", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:03.719520", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:08.735154", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:13.745313", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:18.759632", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:23.778340", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:28.794048", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:33.809567", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:38.834173", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:43.852754", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:48.862133", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:53.873286", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:40:58.885300", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:03.898967", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:08.919250", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:13.931881", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:18.954978", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:23.965163", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:28.973147", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T10:41:33.984363", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:01:52.471944", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:01:57.484945", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:02.512176", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:15.908435", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:28.740334", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:33.757238", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:38.777851", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:43.801276", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:48.837419", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:53.885233", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:02:58.902561", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:03.919231", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:08.932920", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:13.953270", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:18.972507", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:23.996151", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:29.009438", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:34.029064", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:39.037074", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:44.044708", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:49.052225", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:54.060527", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:03:59.073159", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:04.091781", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:09.103501", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:14.122930", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:19.134788", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:24.147809", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:29.162500", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:34.173673", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:39.185518", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:44.211702", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:49.247043", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:54.280204", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:04:59.300097", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:04.326280", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:09.351114", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:14.361261", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:19.385418", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:24.409262", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:29.426887", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:34.439122", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:39.450908", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:44.474057", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:49.500980", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:54.509660", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:05:59.522387", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:04.545405", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:09.569275", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:14.584243", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:19.600834", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:24.616889", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:29.643535", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:34.669672", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:39.689916", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:44.707884", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:49.720608", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:54.728235", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:06:59.737483", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:04.754212", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:09.761316", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:14.782572", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:19.801116", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:24.822172", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:29.832788", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:34.858793", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:39.882467", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:44.907576", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:07:49.929170", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:08:35.974784", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:08:40.997859", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:08:46.020975", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:08:51.035245", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:08:56.052936", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:01.069853", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:06.089191", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:11.098146", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:16.115256", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:21.129377", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:26.147979", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:31.165283", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:36.173453", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:41.181754", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:46.206360", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:51.212248", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:09:56.228963", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:01.239253", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:06.245854", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:11.256309", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:16.276226", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:21.285706", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:26.293894", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:31.322036", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:36.338861", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:41.358751", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:46.380567", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:51.405041", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:10:56.421387", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:01.442807", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:06.474489", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:11.497566", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:16.524174", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:21.549912", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:26.590497", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:31.601531", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:36.617413", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:41.633089", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:46.646230", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:51.668507", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:11:56.699605", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:01.715018", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:06.740149", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:11.751962", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:16.761156", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:21.775527", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:26.794075", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:31.815411", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:36.836299", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:41.852670", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:46.873114", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:51.913555", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:12:56.941308", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:24.295629", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:29.321467", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:34.349220", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:39.366654", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:44.379511", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:49.393365", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:54.409011", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:13:59.418611", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:04.435208", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:09.448716", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:14.489824", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:19.499950", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:24.509798", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:29.527703", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:34.548246", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:39.565110", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:44.586709", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:49.599856", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:54.621956", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:14:59.648605", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:04.675241", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:09.692927", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:14.717793", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:19.730517", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:24.758303", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:29.778049", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:34.791511", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:39.804958", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:44.825320", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:49.847097", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:54.869149", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:15:59.895574", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:04.919453", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:09.944325", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:14.969033", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:19.987832", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:25.007653", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:30.030296", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:35.046051", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:40.053562", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:45.074970", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:50.085922", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:16:55.097461", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:00.120335", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:05.128074", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:10.155935", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:15.176990", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:20.199141", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:25.210558", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:30.223649", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:35.245264", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:40.264373", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:45.277812", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:50.288491", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:17:55.299545", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:00.323483", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:05.338099", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:10.358562", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:15.380660", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:20.390258", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:25.407123", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:30.432061", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:35.441605", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:40.447259", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:45.458384", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:50.473803", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:18:55.498406", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:00.548576", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:05.554333", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:10.567448", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:15.582450", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:20.592201", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:25.609676", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:30.619389", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:35.635413", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:40.651024", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:45.661321", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:50.676750", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:19:55.706226", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:00.722589", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:05.739871", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:10.759257", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:15.778251", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:20.803308", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:25.813155", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:30.841097", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:35.854747", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:40.865942", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:45.887388", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:50.916886", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:20:55.943647", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:00.970399", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:05.981842", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:10.998448", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:16.016194", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:21.037469", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:26.054421", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:31.068817", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:36.083130", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:41.101648", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:46.123187", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:51.148437", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:21:56.176854", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:01.197848", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:06.211240", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:11.233452", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:16.261145", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:24.045443", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:29.058030", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:34.075553", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:39.096720", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:44.102547", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:49.113692", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:54.132617", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:22:59.145186", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:04.149456", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:09.152933", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:14.170885", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:19.189140", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:24.204645", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:29.209188", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:34.218198", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:39.236372", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:44.256284", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:49.274643", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:54.294690", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:23:59.304938", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:04.319447", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:09.331358", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:14.342786", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:19.364903", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:24.379357", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:29.397482", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:34.418420", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:39.434539", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:24:44.448118", "data": {"status": "error", "message": "Modbus Error: [Connection] Failed to connect[ModbusTcpClient 192.168.1.100:502]"}}
+{"timestamp": "2025-10-30T12:28:33.179284", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:33.178837"}}}
+{"timestamp": "2025-10-30T12:28:36.208936", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:36.208493"}}}
+{"timestamp": "2025-10-30T12:28:39.096759", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:39.096288"}}}
+{"timestamp": "2025-10-30T12:28:41.969572", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:41.969111"}}}
+{"timestamp": "2025-10-30T12:28:45.004185", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:45.003738"}}}
+{"timestamp": "2025-10-30T12:28:47.850258", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:47.849846"}}}
+{"timestamp": "2025-10-30T12:28:50.728219", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:50.727768"}}}
+{"timestamp": "2025-10-30T12:28:53.601697", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:53.601243"}}}
+{"timestamp": "2025-10-30T12:28:56.418643", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:56.418196"}}}
+{"timestamp": "2025-10-30T12:28:59.284816", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:28:59.284375"}}}
+{"timestamp": "2025-10-30T12:29:02.147681", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:02.147240"}}}
+{"timestamp": "2025-10-30T12:29:05.032600", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:05.032186"}}}
+{"timestamp": "2025-10-30T12:29:07.874122", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:07.873679"}}}
+{"timestamp": "2025-10-30T12:29:10.728609", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:10.728183"}}}
+{"timestamp": "2025-10-30T12:29:13.680901", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:13.680194"}}}
+{"timestamp": "2025-10-30T12:29:16.537335", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:16.536892"}}}
+{"timestamp": "2025-10-30T12:29:19.434551", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:19.434135"}}}
+{"timestamp": "2025-10-30T12:29:22.310934", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:22.310485"}}}
+{"timestamp": "2025-10-30T12:29:25.188487", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:25.188014"}}}
+{"timestamp": "2025-10-30T12:29:28.108757", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:28.108456"}}}
+{"timestamp": "2025-10-30T12:29:31.041806", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:31.041541"}}}
+{"timestamp": "2025-10-30T12:29:33.941731", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:33.941290"}}}
+{"timestamp": "2025-10-30T12:29:36.850354", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:36.850144"}}}
+{"timestamp": "2025-10-30T12:29:39.713055", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:39.712614"}}}
+{"timestamp": "2025-10-30T12:29:42.586407", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:42.585961"}}}
+{"timestamp": "2025-10-30T12:29:45.462203", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:45.461790"}}}
+{"timestamp": "2025-10-30T12:29:48.299527", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:48.299111"}}}
+{"timestamp": "2025-10-30T12:29:51.192034", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:51.191590"}}}
+{"timestamp": "2025-10-30T12:29:54.065758", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:54.065575"}}}
+{"timestamp": "2025-10-30T12:29:56.940155", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:56.939745"}}}
+{"timestamp": "2025-10-30T12:29:59.807565", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:29:59.807318"}}}
+{"timestamp": "2025-10-30T12:30:02.655808", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:02.655371"}}}
+{"timestamp": "2025-10-30T12:30:05.526689", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:05.526238"}}}
+{"timestamp": "2025-10-30T12:30:08.435525", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:08.435086"}}}
+{"timestamp": "2025-10-30T12:30:11.263729", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:11.263554"}}}
+{"timestamp": "2025-10-30T12:30:14.248842", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:14.248463"}}}
+{"timestamp": "2025-10-30T12:30:17.084616", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:17.084377"}}}
+{"timestamp": "2025-10-30T12:30:19.963278", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:19.962837"}}}
+{"timestamp": "2025-10-30T12:30:22.837660", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:22.837438"}}}
+{"timestamp": "2025-10-30T12:30:25.701141", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:25.700977"}}}
+{"timestamp": "2025-10-30T12:30:28.581961", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:28.581517"}}}
+{"timestamp": "2025-10-30T12:30:31.593500", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:31.592980"}}}
+{"timestamp": "2025-10-30T12:30:34.587046", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:34.586606"}}}
+{"timestamp": "2025-10-30T12:30:37.475072", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:37.474936"}}}
+{"timestamp": "2025-10-30T12:30:40.491183", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:40.491009"}}}
+{"timestamp": "2025-10-30T12:30:43.400462", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:43.400272"}}}
+{"timestamp": "2025-10-30T12:30:46.724003", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:46.723806"}}}
+{"timestamp": "2025-10-30T12:30:49.596315", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:49.596151"}}}
+{"timestamp": "2025-10-30T12:30:52.517524", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:52.517331"}}}
+{"timestamp": "2025-10-30T12:30:55.422863", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:55.422580"}}}
+{"timestamp": "2025-10-30T12:30:58.332055", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:30:58.331808"}}}
+{"timestamp": "2025-10-30T12:31:01.318054", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:01.317872"}}}
+{"timestamp": "2025-10-30T12:31:04.374924", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:04.374742"}}}
+{"timestamp": "2025-10-30T12:31:07.318524", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:07.318365"}}}
+{"timestamp": "2025-10-30T12:31:10.211135", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:10.210757"}}}
+{"timestamp": "2025-10-30T12:31:13.169056", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:13.168864"}}}
+{"timestamp": "2025-10-30T12:31:16.076264", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:16.076087"}}}
+{"timestamp": "2025-10-30T12:31:18.962592", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:18.962397"}}}
+{"timestamp": "2025-10-30T12:31:21.841894", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:21.841714"}}}
+{"timestamp": "2025-10-30T12:31:24.772084", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:24.771887"}}}
+{"timestamp": "2025-10-30T12:31:27.661359", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 2.75, "unit": "m", "battery_voltage": 12.4, "signal_strength": 87, "timestamp": "2025-10-30T12:31:27.661169"}}}
+{"timestamp": "2025-10-30T12:44:22.118365", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.95, "unit": "m", "battery_voltage": 12.06, "signal_strength": 80, "timestamp": "2025-10-30T12:44:22.118187"}}}
+{"timestamp": "2025-10-30T12:44:25.120056", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.91, "unit": "m", "battery_voltage": 12.09, "signal_strength": 88, "timestamp": "2025-10-30T12:44:25.119577"}}}
+{"timestamp": "2025-10-30T12:44:27.999927", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.86, "unit": "m", "battery_voltage": 12.35, "signal_strength": 86, "timestamp": "2025-10-30T12:44:27.999620"}}}
+{"timestamp": "2025-10-30T12:44:30.924039", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.8, "unit": "m", "battery_voltage": 12.51, "signal_strength": 91, "timestamp": "2025-10-30T12:44:30.923574"}}}
+{"timestamp": "2025-10-30T12:44:33.865890", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.75, "unit": "m", "battery_voltage": 12.47, "signal_strength": 85, "timestamp": "2025-10-30T12:44:33.865114"}}}
+{"timestamp": "2025-10-30T12:44:36.803262", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.7, "unit": "m", "battery_voltage": 12.08, "signal_strength": 80, "timestamp": "2025-10-30T12:44:36.802712"}}}
+{"timestamp": "2025-10-30T12:44:39.731818", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.66, "unit": "m", "battery_voltage": 12.35, "signal_strength": 81, "timestamp": "2025-10-30T12:44:39.731412"}}}
+{"timestamp": "2025-10-30T12:44:42.617035", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.61, "unit": "m", "battery_voltage": 12.14, "signal_strength": 80, "timestamp": "2025-10-30T12:44:42.616594"}}}
+{"timestamp": "2025-10-30T12:44:45.478926", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.56, "unit": "m", "battery_voltage": 12.53, "signal_strength": 94, "timestamp": "2025-10-30T12:44:45.478494"}}}
+{"timestamp": "2025-10-30T12:44:48.362692", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.51, "unit": "m", "battery_voltage": 12.41, "signal_strength": 87, "timestamp": "2025-10-30T12:44:48.362264"}}}
+{"timestamp": "2025-10-30T12:44:51.246995", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.45, "unit": "m", "battery_voltage": 12.02, "signal_strength": 88, "timestamp": "2025-10-30T12:44:51.246647"}}}
+{"timestamp": "2025-10-30T12:44:54.097667", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.41, "unit": "m", "battery_voltage": 12.27, "signal_strength": 84, "timestamp": "2025-10-30T12:44:54.097340"}}}
+{"timestamp": "2025-10-30T12:44:56.948210", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.35, "unit": "m", "battery_voltage": 12.6, "signal_strength": 89, "timestamp": "2025-10-30T12:44:56.947819"}}}
+{"timestamp": "2025-10-30T12:44:59.858026", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.31, "unit": "m", "battery_voltage": 12.03, "signal_strength": 87, "timestamp": "2025-10-30T12:44:59.857651"}}}
+{"timestamp": "2025-10-30T12:45:02.764517", "data": {"data": {"device_id": "UE3001-Demo", "level_m": 4.26, "unit": "m", "battery_voltage": 12.05, "signal_strength": 95, "timestamp": "2025-10-30T12:45:02.764108"}}}

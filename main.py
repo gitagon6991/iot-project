@@ -13,6 +13,7 @@ import time
 import threading
 import datetime
 import json
+import random
 
 # Initialize FastAPI app
 app = FastAPI(title="Holykell UE3001 Dashboard")
@@ -25,7 +26,11 @@ templates = Jinja2Templates(directory="templates")
 sensor = SensorReader()
 storage = LocalStorage()
 cloud = CloudService()
-erp = ERPNextService()
+erp = ERPNextService(
+    url="https://levelsensor.frappe.cloud",
+    api_key="e1af3249c2323f1",
+    api_secret="8e7c37095ec6df4"
+)
 dashboard = Dashboard()
 
 latest_data = {}
@@ -46,7 +51,7 @@ async def get_latest():
 
 @app.get("/latest-data")
 def get_latest_data():
-    """Keep compatibility with your old dashboard route"""
+    """Keep compatibility with old dashboard route"""
     latest = storage.get_latest_data() 
     return {"latest_data": latest or "No data yet"}
 
@@ -55,8 +60,34 @@ def get_latest_data():
 def run_system_loop():
     """Continuously read, store, upload, and display sensor data."""
     global latest_data
+
+    # Mock sensor for testing
+    level = 5.0  # starting level in meters (example full tank)
+    decrease_rate = 0.05  # meters per cycle
+
     while True:
-        data = sensor.read_data()
+        # data = sensor.read_data()
+        # Simulated data for demonstration purposes
+        # In a real scenario, replace this with actual sensor reading logic --> data = sensor.read_data()
+        # Gradually decrease with a bit of natural noise
+        noise = random.uniform(-0.01, 0.01)
+        level = max(0, level - decrease_rate + noise)
+
+        # Test: auto refill when empty (like refilling a tank)
+        if level <= 0.1:
+            level = 5.0
+
+        data = {
+            "data": {
+                "device_id": "UE3001-Demo",
+                "level_m": round(level, 2),
+                "unit": "m",
+                "battery_voltage": round(random.uniform(12.0, 12.6), 2),
+                "signal_strength": random.randint(80, 95),
+                "timestamp": datetime.datetime.now().isoformat()
+            }
+        }
+
         print(f"[Sensor] Collected Data: {data}")
 
         # Save to local, cloud, ERPNext

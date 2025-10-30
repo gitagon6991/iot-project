@@ -1,7 +1,7 @@
 import requests
 
 class ERPNextService:
-    def __init__(self, url="http://localhost:8000", api_key="your_api_key", api_secret="your_api_secret"):
+    def __init__(self, url="https://levelsensor.frappe.cloud", api_key="e1af3249c2323f1", api_secret="8e7c37095ec6df4"):
         # self.url = url
         self.url = url.rstrip("/")  # Clean URL
         self.api_key = api_key
