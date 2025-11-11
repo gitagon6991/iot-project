@@ -27,9 +27,9 @@ sensor = SensorReader()
 storage = LocalStorage()
 cloud = CloudService()
 erp = ERPNextService(
-    url="https://levelsensor.frappe.cloud",
-    api_key="e1af3249c2323f1",
-    api_secret="8e7c37095ec6df4"
+    url="your_erpnext_url",
+    api_key="your_api_key",
+    api_secret="your_api_sectret"
 )
 dashboard = Dashboard()
 

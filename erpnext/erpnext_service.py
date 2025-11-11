@@ -11,7 +11,7 @@ class ERPNextService:
         }
         self.doctype = "Sensor Reading"
 
-        # Defining possible field aliases across different sensors
+        # Define possible field aliases across different sensors
         self.field_aliases = {
             "device_id": ["device_id", "sensor_id", "id", "dev_id"],
             "level": ["level", "level_m", "lvl", "depth", "distance"],
