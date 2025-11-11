@@ -12,7 +12,7 @@ class SensorReader:
         self.device_id = "UE3001"
 
         if not self.client.connect():
-            print(f"[SensorReader] ⚠️ Could not connect to {host}:{port}")
+            print(f"[SensorReader] Could not connect to {host}:{port}")
 
         # Detect if 'unit' argument is supported (older pymodbus)
         self.supports_unit = "unit" in inspect.signature(self.client.read_input_registers).parameters

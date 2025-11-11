@@ -16,7 +16,7 @@ import json
 import random
 
 # Initialize FastAPI app
-app = FastAPI(title="Holykell UE3001 Dashboard")
+app = FastAPI(title="Holykell Level Sensor Dashboard")
 
 # Serve templates and static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
