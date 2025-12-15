@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Holykell Level Sensor Live Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8fafc;
+      padding: 2rem;
+    }
+    h1 { color: #1e293b; }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+    canvas {
+      max-width: 800px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Holykell Level Sensor Live Dashboard</h1>
+
+  <div class="card">
+    <h2>Current Reading</h2>
+    <p><strong>Device:</strong> <span id="device_id"> </span></p>
+    <p><strong>Level:</strong> <span id="level"> </span></p>
+    <p><strong>Battery:</strong> <span id="battery"> </span></p>
+    <p><strong>Signal:</strong> <span id="signal"> </span></p>
+    <p><strong>Timestamp:</strong> <span id="timestamp"> </span></p>
+  </div>
+
+  <canvas id="levelChart"></canvas>
+
+  <script>
+    const ctx = document.getElementById('levelChart');
+    const chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Liquid Level (m)',
+          data: [],
+          borderWidth: 2,
+          borderColor: '#2563eb',
+          fill: false,
+        }]
+      },
+      options: {
+        scales: { y: { beginAtZero: true } }
+      }
+    });
+
+    async function fetchData() {
+      const res = await fetch('/api/latest');
+      const data = await res.json();
+
+      if (data.level_m !== undefined) {
+        document.getElementById('device_id').textContent = data.device_id;
+        document.getElementById('level').textContent = `${data.level_m} ${data.unit}`;
+        document.getElementById('battery').textContent = `${data.battery_voltage} V`;
+        document.getElementById('signal').textContent = `${data.signal_strength} %`;
+        document.getElementById('timestamp').textContent = data.timestamp;
+
+        chart.data.labels.push(new Date(data.timestamp).toLocaleTimeString());
+        chart.data.datasets[0].data.push(data.level_m);
+        if (chart.data.labels.length > 20) {
+          chart.data.labels.shift();
+          chart.data.datasets[0].data.shift();
+        }
+        chart.update();
+      }
+    }
+
+    setInterval(fetchData, 3000);
+  </script>
+</body>
+</html>

@@ -3,6 +3,7 @@
 <head>
   <title>Holykell Level Sensor Live Dashboard</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
   <style>
     body {
       font-family: sans-serif;
@@ -17,6 +18,17 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       margin-bottom: 1rem;
     }
+    /* NEW: Alert Box Styling */
+    #alert-box {
+      display: none; /* Hidden by default */
+      background-color: #fca5a5; /* Light Red */
+      color: #7f1d1d; /* Dark Red Text */
+      padding: 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      border: 2px solid #ef4444;
+    }
     canvas {
       max-width: 800px;
       margin-top: 20px;
@@ -25,6 +37,11 @@
 </head>
 <body>
   <h1>Holykell Level Sensor Live Dashboard</h1>
+
+  <div id="alert-box">
+     <strong>ALERT: THEFT DETECTED!</strong> 
+    <p id="alert-details"></p>
+  </div>
 
   <div class="card">
     <h2>Current Reading</h2>
@@ -39,6 +56,10 @@
 
   <script>
     const ctx = document.getElementById('levelChart');
+    const alertBox = document.getElementById('alert-box');
+    const alertDetails = document.getElementById('alert-details');
+
+    // Chart initialization remains the same
     const chart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -56,28 +77,121 @@
       }
     });
 
-    async function fetchData() {
-      const res = await fetch('/api/latest');
-      const data = await res.json();
+    const MAX_POINTS = 50; // Define the maximum number of points to show in the live window
+    /**
+     * Fetches ALL history and initializes the chart with the LAST MAX_POINTS.
+     * This ensures the chart starts clean, but all data is technically loaded (hidden by Chart.js scale).
+     */
+    async function loadHistoricalData() {
+        console.log("Loading historical data...");
+        try {
+            // CALLING THE ENDPOINT THAT RETURNS ALL DATA (e.g., /api/history or /api/recent_history with a very high limit)
+            // If you are using your original setup, this fetches ALL data:
+            //   const res = await fetch('/api/recent_history?limit=20');
+            const res = await fetch('/api/history');
+            // Use the dynamic limit in the API request
+            //const res = await fetch(`/api/recent_history?limit=${limit}`);
+            const history = await res.json();
 
-      if (data.level_m !== undefined) {
-        document.getElementById('device_id').textContent = data.device_id;
-        document.getElementById('level').textContent = `${data.level_m} ${data.unit}`;
-        document.getElementById('battery').textContent = `${data.battery_voltage} V`;
-        document.getElementById('signal').textContent = `${data.signal_strength} %`;
-        document.getElementById('timestamp').textContent = data.timestamp;
+            if (Array.isArray(history) && history.length > 0) {
+                // Clear any potential old data before loading history
+                chart.data.labels = [];
+                chart.data.datasets[0].data = [];
 
-        chart.data.labels.push(new Date(data.timestamp).toLocaleTimeString());
-        chart.data.datasets[0].data.push(data.level_m);
-        if (chart.data.labels.length > 20) {
-          chart.data.labels.shift();
-          chart.data.datasets[0].data.shift();
+                // 2. Select ONLY the last MAX_POINTS for the initial view
+                const recent_history = history.slice(-MAX_POINTS);
+
+                // Populate the chart with all records
+                recent_history.forEach(entry => {
+                    // The data is nested under the 'data' key in the LocalStorage entry
+                    const sensorData = entry.data.data; 
+                    const timestamp = entry.timestamp || sensorData.timestamp;
+
+                    if (sensorData && sensorData.level_m !== undefined) {
+                        chart.data.labels.push(new Date(sensorData.timestamp).toLocaleTimeString());
+                        chart.data.datasets[0].data.push(sensorData.level_m);
+                        // chart.data.labels.push(new Date(timestamp).toLocaleTimeString());
+                      
+                    }
+                });
+
+                chart.update();
+                console.log(`Successfully loaded ${history.length} historical records.`);
+            } else {
+                console.log("No historical data available to load.");
+            }
+        } catch (error) {
+            console.error("Error loading historical data:", error);
         }
-        chart.update();
-      }
     }
 
+
+    /**
+     * Polls the latest API endpoint and appends the new point in real-time.
+     * Also updates the current reading card and checks for alerts.
+     */
+    async function fetchData() {
+        const res = await fetch('/api/latest');
+        const data = await res.json();
+
+        // 1. Update Current Readings Card and Chart
+        if (data.level_m !== undefined) {
+            document.getElementById('device_id').textContent = data.device_id;
+            document.getElementById('level').textContent = `${data.level_m} ${data.unit}`;
+            document.getElementById('battery').textContent = `${data.battery_voltage} V`;
+            document.getElementById('signal').textContent = `${data.signal_strength} %`;
+            document.getElementById('timestamp').textContent = data.timestamp;
+
+            // Append the new data point to the chart (no .shift() needed anymore)
+            chart.data.labels.push(new Date(data.timestamp).toLocaleTimeString());
+            chart.data.datasets[0].data.push(data.level_m);
+
+            chart.data.labels.push(new Date(data.timestamp).toLocaleTimeString());
+            chart.data.datasets[0].data.push(data.level_m);
+            
+            // Reintroducing the Rolling Window Cleanup
+            if (chart.data.labels.length > MAX_POINTS) {
+                chart.data.labels.shift();         // Remove oldest label
+                chart.data.datasets[0].data.shift(); // Remove oldest data value
+            }
+
+            // Implementing Rolling Window Cleanup
+            /*if (chart.data.labels.length > MAX_POINTS) {
+                chart.data.labels.shift();         // Remove oldest label
+                chart.data.datasets[0].data.shift(); // Remove oldest data value
+            }*/
+            chart.update();
+        }
+
+        // 2. Check and Display Alerts
+        if (data.theft_alert && data.theft_info) {
+            const info = data.theft_info;
+            alertBox.style.display = 'block';
+            
+            // Corrected to use HTML <strong> tags for bold text
+            alertDetails.innerHTML = `
+                Massive drop detected!
+                <ul>
+                  <li><strong>Drop:</strong> ${info.drop_m} m (${(info.drop_pct * 100).toFixed(2)}%)</li>
+                  <li><strong>Rate:</strong> ${info.rate_m_per_min.toFixed(4)} m/min</li>
+                  <li><strong>Start Time:</strong> ${new Date(info.older_time).toLocaleTimeString()}</li>
+                </ul>
+            `;
+        } else {
+            alertBox.style.display = 'none';
+        }
+    }
+
+    // ---------------- EXECUTION START ----------------
+
+    // Load all history first (only runs once)
+    // loadHistoricalData(MAX_POINTS);
+
+    // 1. Load the history first (this will load MAX_POINTS or whatever the backend returns)
+    loadHistoricalData();
+
+    // 2. Start the interval to fetch new data every 3 seconds (runs continuously)
     setInterval(fetchData, 3000);
-  </script>
+</script>
 </body>
 </html>

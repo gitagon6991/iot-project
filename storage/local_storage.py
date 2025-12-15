@@ -25,6 +25,56 @@ class LocalStorage:
         self.latest_data = data
         print(f"[Storage] Data saved locally: {entry}")
 
+    def get_all_data(self):
+        """
+        Reads all historical sensor data from the file.
+        Returns a list of dictionaries, one for each reading.
+        """
+        data_list = []
+        try:
+            with open(self.filename, "r") as f:
+                # Iterate through each line in the file
+                for line in f:
+                    # Strip whitespace/newline and load the JSON object
+                    line = line.strip()
+                    if line:
+                        try:
+                            entry = json.loads(line)
+                            # Append the full entry, which includes timestamp and data
+                            data_list.append(entry)
+                        except json.JSONDecodeError as e:
+                            print(f"[Storage] Error decoding JSON line: {e} in line: {line[:50]}...")
+                            continue # Skip bad lines
+
+            print(f"[Storage] Retrieved {len(data_list)} historical records.")
+            return data_list
+            
+        except FileNotFoundError:
+            return []
+
+    def get_recent_history(self, limit=20):
+        """
+        Reads the last 'limit' historical sensor data entries from the file.
+        """
+        data_list = []
+        try:
+            with open(self.filename, "r") as f:
+                # Read all lines and take only the last 'limit' lines
+                lines = f.readlines()
+                recent_lines = lines[-limit:]
+                
+                for line in recent_lines:
+                    line = line.strip()
+                    if line:
+                        entry = json.loads(line)
+                        data_list.append(entry)
+
+            print(f"[Storage] Retrieved last {len(data_list)} historical records.")
+            return data_list
+            
+        except FileNotFoundError:
+            return []       
+
     def get_latest_data(self):
         """Return the most recent data for the dashboard."""
         # if cache exists, return immediately (fast)
