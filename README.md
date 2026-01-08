@@ -1,4 +1,4 @@
-# 🌡 IoT Smart Sensor Dashboard (Holykell V20)
+# IoT Smart Sensor Dashboard (Holykell V20)
 
 This project is a Python-based IoT system that connects to a **Holykell V20 Wireless Smart Platform** via **Modbus/TCP**, collects sensor readings, and displays them on a live **FastAPI web dashboard**.  
 
@@ -6,7 +6,7 @@ It also integrates with **ERPNext** for data synchronization and uses local stor
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Real-time data collection from Modbus/TCP/UDP sensors  
 - Local data logging using JSON storage  
@@ -17,7 +17,7 @@ It also integrates with **ERPNext** for data synchronization and uses local stor
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - **Python 3.11+**
 - **FastAPI** (for backend & dashboard)
@@ -28,7 +28,7 @@ It also integrates with **ERPNext** for data synchronization and uses local stor
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 iot-project/
 │
@@ -57,7 +57,7 @@ iot-project/
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 ```bash
 # 1. Clone the repo
@@ -74,9 +74,9 @@ pip install -r requirements.txt
 # 4. Start the app
 uvicorn main:app --reload
 
-Then open: 👉 http://127.0.0.1:8000
+Then open: http://127.0.0.1:8000
 
-🌍 Next Steps
+Next Steps
 
 Replace demo temperature/humidity data with real Modbus register mappings
 
@@ -84,7 +84,7 @@ Add geolocation mapping and alert system
 
 Implement full ERPNext synchronization
 
-🧑‍💻 Author
+Author
 
 Anthony Njuguna (gitagon6991)
 IoT & Automation Enthusiast
